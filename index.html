@@ -11,16 +11,32 @@
     <body>
 	    <div class="container">
 	    	<div class="col-md-12 col-sm-12">
-	    		<h2 class="top-header">Enter Your Contestants</h2>
+	    		<h2 class="top-header">Enter the Danger Zone</h2>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-sm-3 col-md-offset-3 col-sm-offset-3">
-				    <input type="text" class="form-control" id="inputContestant1" placeholder="Contestant Number 1">
+				<div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2">
+				    <input type="text" class="form-control" id="inputContestant1" placeholder="Contestant Number 1" value="ellisthomas">
 				</div>
-				<div class="col-md-3 col-sm-3">
-					<input type="text" class="form-control" id="inputContestant2" placeholder="Contestant Number 2">
+				<div class="col-md-2 col-sm-2 col-md-offset-4 col-sm-offset-4">
+					<input type="text" class="form-control" id="inputContestant2" placeholder="Contestant Number 2" value="krissycaron">
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<button class="btn btn-lg btn-danger battle-button" type="button">Battle!</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-md-offset-1 col-sm-offset-1">
+				    <div id="contestant1-display">
+				    </div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
+				    <div id="contestant2-display">
+				    </div>
+				</div>
+			</div>
+
 	    </div>
 	    <script src="lib/bower_components/jquery/dist/jquery.js"></script>
 	    <script src="lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
